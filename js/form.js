@@ -42,6 +42,17 @@ $(function() {
 			} else {
 				$(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}
+		})
+		.always(function() {
+			// Make sure that the formMessages div has the 'success' class.
+			$(formMessages).removeClass('bg-danger');
+			$(formMessages).addClass('bg-success');
+
+			// Set the message text.
+			$(formMessages).text('Your message successfully sent');
+
+			// Clear the form.
+			$('#name, #email, #message').val('');	
 		});
 
 	});
