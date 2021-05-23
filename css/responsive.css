@@ -68,6 +68,14 @@
 	.about-img {
 		margin-right:15px;
 	}
+	video {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
+	}
 }
 @media only screen and (max-width: 1199px) {
 	#fp-nav.fp-right {
@@ -127,6 +135,14 @@
 	}
 	.menu-trigger {
 		margin:0;
+	}
+	video {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
 	}
 }
 @media only screen and (max-width: 991px) {
@@ -192,13 +208,22 @@
 	.contact-row {
 		padding: 42px 45px;
 	}
+	video {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
+	}
 }
 @media only screen and (max-width: 767px) {
 	#header {
 		position: fixed;
 		top: 0;
 		z-index: 6666;
-		background-color: rgb(52 125 178 / 0.95);
+		background-color: #12384d;
+		opacity: 0.9;
 	}
 	#navigation button i {
 		color: #1e1e1e;
@@ -351,6 +376,14 @@
 	.project-buttons-margin {
 		margin-top: 50px;
 	}
+	video {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
+	}
 }
 @media only screen and (max-width: 575px) {
 	.welcome-title {
@@ -412,6 +445,14 @@
 	.client-row {
 		padding-left: 0;
 	}
+	video {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
+	}
 }
 @media only screen and (max-width: 460px) {
 	h4 {
@@ -419,6 +460,13 @@
 	}
 	.testimonial-content:before {
 		left: 45%;
+	}
+	video {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100vw;
 	}
 }
 @media only screen and (max-width: 320px) {
@@ -428,4 +476,13 @@
 	.testimonial-content:before {
 		left: 43%;
 	}
+	video {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
+	}
+	
 }

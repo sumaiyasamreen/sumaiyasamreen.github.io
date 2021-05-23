@@ -28,23 +28,25 @@
     };
     $(document).ready(function() {
         $(window).on('load', function() {
-            $('.preloader').fadeOut();
-            $('.animated-row').each(function() {
-                var $this = $(this);
-                $this.find('.animate').each(function(i) {
-                    var $item = $(this);
-                    var animation = $item.data('animate');
-                    $item.on('inview', function(event, isInView) {
-                        if (isInView) {
-                            setTimeout(function() {
-                                $item.addClass('animated ' + animation).removeClass('animate');
-                            }, i * 50);
-                        } else if (!screencheck(767)) {
-                            $item.removeClass('animated ' + animation).addClass('animate');
-                        }
+            setTimeout(function() {
+                $('.preloader').fadeOut();
+                $('.animated-row').each(function() {
+                    var $this = $(this);
+                    $this.find('.animate').each(function(i) {
+                        var $item = $(this);
+                        var animation = $item.data('animate');
+                        $item.on('inview', function(event, isInView) {
+                            if (isInView) {
+                                setTimeout(function() {
+                                    $item.addClass('animated ' + animation).removeClass('animate');
+                                }, i * 50);
+                            } else if (!screencheck(767)) {
+                                $item.removeClass('animated ' + animation).addClass('animate');
+                            }
+                        });
                     });
                 });
-            });
+              }, 5000);
         });
         if ($('.facts-list').length) {
             $('.facts-list').owlCarousel({
