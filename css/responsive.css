@@ -40,6 +40,9 @@
 		line-height:1.05;
 		margin-bottom:10px;
 	}
+	#welcome-logo {
+		width: 200px;
+	}
 	.title-block p {
 		line-height: 1.6;
 	}
@@ -103,6 +106,9 @@
 	}
 	h1, h2 {
 		font-size:48px;
+	}
+	#welcome-logo {
+		width: 170px;
 	}
 	.counter-box {
 		font-size:13px;
@@ -318,6 +324,9 @@
 	h1, h2 {
 		font-size:36px;
 	}
+	#welcome-logo {
+		width: 150px;
+	}
 	body {
 		font-size:15px;
 	}
@@ -398,6 +407,9 @@
 	}
 	h1, h2 {
 		font-size:30px;
+	}
+	#welcome-logo {
+		width: 100px;
 	}
 	.about-contentbox {
 		line-height:1.6;
