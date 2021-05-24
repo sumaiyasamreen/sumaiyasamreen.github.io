@@ -14,3 +14,11 @@ body {top:0 !important;}
   top: 50%;
   position: absolute;
 }
+
+.servicebox-link {
+  color: blue;
+}
+
+.servicebox-link:hover {
+  color: blue;
+}

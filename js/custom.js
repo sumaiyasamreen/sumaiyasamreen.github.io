@@ -46,7 +46,7 @@
                         });
                     });
                 });
-              }, 5000);
+              }, 1000);
         });
         if ($('.facts-list').length) {
             $('.facts-list').owlCarousel({
@@ -157,7 +157,7 @@
         if ($('.fullpage-default').length) {
             var myFullpage = new fullpage('.fullpage-default', {
                 licenseKey: ' C7F41B00-5E824594-9A5EFB99-B556A3D5',
-                anchors: ['intro', 'about', 'services', 'contact'],
+                anchors: ['intro', 'about', 'services', 'skills', 'contact'],
                 menu: '#nav',
                 lazyLoad: true,
                 navigation: true,
