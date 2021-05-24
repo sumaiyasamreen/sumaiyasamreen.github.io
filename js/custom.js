@@ -46,7 +46,7 @@
                         });
                     });
                 });
-              }, 1000);
+              }, 5000);
         });
         if ($('.facts-list').length) {
             $('.facts-list').owlCarousel({
@@ -189,7 +189,7 @@
                 });
                 setTimeout(function() {
                     $('.count-number').removeClass('count-number').addClass('counted');
-                }, 5000);
+                }, 1000);
             });
         });
         $('.skills-row').on('inview', function(event, isInView) {
