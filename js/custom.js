@@ -189,7 +189,7 @@
                 });
                 setTimeout(function() {
                     $('.count-number').removeClass('count-number').addClass('counted');
-                }, 1000);
+                }, 5000);
             });
         });
         $('.skills-row').on('inview', function(event, isInView) {
