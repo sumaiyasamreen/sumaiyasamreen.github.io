@@ -110,9 +110,9 @@
         }
         if ($('.gallery-list').length) {
             $('.gallery-list').owlCarousel({
-                loop: false,
-                nav: false,
-                dots: true,
+                loop: true,
+                nav: true,
+                dots: false,
                 items: 3,
                 autoplay: false,
                 smartSpeed: 700,
