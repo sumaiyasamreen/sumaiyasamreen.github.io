@@ -69,6 +69,8 @@
 		padding-top:10px;
 	}
 	.about-img {
+		margin-top: 40px;
+		max-height: 120% !important;
 		margin-right:15px;
 	}
 	video {
@@ -93,6 +95,8 @@
 		max-width: 100%;
 	}
 	.about-img {
+		margin-top: 40px;
+		max-height: 120% !important;
 		margin-right:0;
 	}
 	.welcome-title {
@@ -319,6 +323,8 @@
 		margin-top:0;
 	}
 	.about-img {
+		margin-top: 40px;
+		max-height: 120% !important;
 		margin-bottom:10px;
 	}
 	h1, h2 {
