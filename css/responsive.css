@@ -202,13 +202,6 @@
 	#ajax-contact input {
 		margin-bottom: 20px;
 	}
-	.contact-row i {
-		font-size: 25px;
-		width:45px;
-	}
-	.contact-row i.fa-envelope {
-		font-size: 20px;
-	}
 	.container-fluid {
 		padding:0 15px;
 	}
