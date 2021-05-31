@@ -142,9 +142,9 @@
                 dots: true,
                 items: 1,
                 margin: 30,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 700,
-                autoplayTimeout: 6000,
+                autoplayTimeout: 9000,
                 responsive: {
                     0: {
                         items: 1,
@@ -159,7 +159,7 @@
         if ($('.fullpage-default').length) {
             var myFullpage = new fullpage('.fullpage-default', {
                 licenseKey: ' C7F41B00-5E824594-9A5EFB99-B556A3D5',
-                anchors: ['intro', 'about', 'services', 'skills', 'contact'],
+                anchors: ['intro', 'about', 'about', 'services', 'skills', 'contact'],
                 menu: '#nav',
                 lazyLoad: true,
                 navigation: true,
