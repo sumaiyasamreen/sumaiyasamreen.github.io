@@ -43,9 +43,6 @@ img {
   border: 0;
   max-width: 100%;
 }
-html {
-  -ms-overflow-style: scrollbar;
-}
 .alltrans,
 .social-icons li a,
 .owl-nav > button,
@@ -530,7 +527,6 @@ a#logo {
   font-weight: 300;
 }
 .services-list .item {
-  background-color: rgba(250,250,250,0.25);
   border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -788,12 +784,15 @@ textarea.form-control {
 09. TESTIMONOALS BLOCK CSS
 ================================================*/
 .testimonials-section .item {
-  background-color: rgba(250,250,250,0.25);
-  padding: 40px;
+  padding: 10px;
   border-radius: 10px;
 }
+.testimonials-section .item:hover {
+  background-color: rgba(250,250,250, 0.85);
+  color: black;
+}
 .testimonials-section .item img {
-  width: 140px;
+  width: 250px;
   height: 140px;
   margin: 0 auto;
 }
