@@ -58,7 +58,7 @@
                 autoplay: true,
                 autoplayHoverPause: true,
                 smartSpeed: 700,
-                autoplayTimeout: 6000,
+                autoplayTimeout: 5000,
                 responsive: {
                     0: {
                         items: 1,
@@ -89,7 +89,7 @@
                 autoplay: true,
                 autoplayHoverPause: true,
                 smartSpeed: 700,
-                autoplayTimeout: 9000,
+                autoplayTimeout: 5000,
                 responsive: {
                     0: {
                         items: 1,
@@ -142,9 +142,10 @@
                 dots: true,
                 items: 1,
                 margin: 30,
-                autoplay: false,
+                autoplay: true,
+                autoplayHoverPause: true,
                 smartSpeed: 700,
-                autoplayTimeout: 9000,
+                autoplayTimeout: 5000,
                 responsive: {
                     0: {
                         items: 1,
