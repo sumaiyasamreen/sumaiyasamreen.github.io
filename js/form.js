@@ -58,3 +58,7 @@ $(function() {
 	});
 
 });
+
+function onSubmit(token) {
+	document.getElementById('my-form').submit();
+}
