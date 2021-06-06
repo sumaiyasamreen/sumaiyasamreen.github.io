@@ -60,5 +60,5 @@ $(function() {
 });
 
 function onSubmit(token) {
-	document.getElementById('my-form').submit();
+	document.getElementById('ajax-contact').submit();
 }
